@@ -19,15 +19,9 @@ var reLink = ''
 $(document).ready(function () {
   
   const liffId = "1657763925-5yob2JPD";
-  var lineiId = "";            
-  const divPage = document.getElementById('liff-page');
-  
-  //p要素の取得
-  const pElement = document.getElementById('liff-message');
             
   //LIFFで立ち上げているかどうかの判定
   if(liff.isInClient()){
-    pElement.innerHTML=''
 
     //LIFF初期化
     liff.init({
